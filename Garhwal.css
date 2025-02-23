@@ -1,0 +1,150 @@
+body {
+  background-color: #F5F5DC;
+  color: #212121;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #8B5A2B;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #1976D2;
+  border: 10px double yellow;
+  border-radius: 50px 20px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.latest-news {
+  margin: 10px;
+  width: 25%;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.market-report {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.market-report h2 {
+  background-color: orange;
+  border: 5px double navy;
+  border-radius: 50px 20px;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.market-report table {
+  width: 100%;
+  background-color: rgb(204, 199, 199);
+  border-collapse: collapse;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.market-report th,
+.market-report td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.market-report th {
+  background-color: #f4f4f4;
+}
+
+.up {
+  color: green;
+  font-weight: bold;
+}
+
+.down {
+  color: red;
+  font-weight: bold;
+}
+
+.fuel-prices {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+.main-news {
+  margin: 10px;
+  width: 45%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #2E7D32;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+.social-links a {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.social-links a:hover {
+  color: khaki;
+}
