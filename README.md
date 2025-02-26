@@ -8,4 +8,6 @@ This repository contains the development of **Garhwali Patrika**, a news website
 📰 **Categorized News** – Covering politics, culture, weather, and regional updates.  
 🔧 **Tech Stack** – HTML, CSS, JavaScript, and backend integration (TBD).  
 
+I'll keep adding and updating files, as the project makes more progress.
+
 This project is a step toward preserving and promoting the **Garhwali language** in the digital space. 🚀
