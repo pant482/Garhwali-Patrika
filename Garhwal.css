@@ -148,3 +148,59 @@ footer {
 .social-links a:hover {
   color: khaki;
 }
+
+.scoreboard {
+  text-align: center;
+  width: 580px;
+  background: #fff;
+  border-radius: 50px 20px;
+  border: 10px double black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.team {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+}
+
+.team img {
+  width: 30px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.details {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #555;
+}
+
+.status {
+  background: green;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 12px;
+}
